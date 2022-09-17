@@ -1,0 +1,14 @@
+{
+  "name": "batterypack",
+  "author": "Dylan Hanson (jovialis)",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "build": "yarn build",
+    "dev": "yarn workspace bridge run dev && yarn workspace server run dev && yarn workspace frontend run dev"
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "packageManager": "yarn@3.2.3"
+}
